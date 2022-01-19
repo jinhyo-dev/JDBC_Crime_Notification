@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+#main {
+    font-size: 25px;
+}
+
+body {
+    background-color: black;
+}
+
+.background {
+    border: 1px solid;
+    height: 300px;
+    width: auto;
+    background-image: url(./img/pngegg.png);
+    background-size: 1550px 300px;
+}
+
+.title {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 65px;
+    color: #FFF;
+    text-align: center;
+}
+
+.box {
+    color: white;
+    text-align: center;
+    border: 1px solid #fff;
+    width: 550px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+select {
+    width: 150px;
+    height: 50px;
+}
+
+.img {
+    width: 12%;
+    position:relative;
+}
+
+.redcolor {
+    color: red;
+}
+
+.greencolor {
+    color: green;
+}
+
+.siren {
+    width: 4.5%;
+}
+
+#my_modal {
+    display: none;
+    width: 300px;
+    padding: 20px 60px;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    border-radius: 3px;
+}
+
+#my_modal .modal_close_btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#popup_open_btn {
+    margin-bottom: 1rem;
+    width: 100px;
+    height: 40px;
+    background-color: yellowgreen;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: 'Bebas Neue', cursive;
+}
